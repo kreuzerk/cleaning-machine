@@ -1,0 +1,18 @@
+{
+  "name": "cleaning-machine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server ./src -o",
+    "build": "postcss src/styles.css -o dist/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0"
+  }
+}

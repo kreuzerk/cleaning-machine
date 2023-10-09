@@ -1,0 +1,149 @@
+/* Primary Button */
+.button-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Secondary Button */
+.button-secondary {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-secondary:hover {
+    background-color: #e2e6ea;
+}
+
+/* Danger Button */
+.button-danger {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-danger:hover {
+    background-color: #c82333;
+}
+
+
+/* Card Container */
+.card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Card Title */
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Card Content */
+.card-content {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Card Image */
+.card-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+
+/* Header Container */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation Menu */
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-menu li:last-child {
+    margin-right: 0;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer Container */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Footer Text */
+.footer-text {
+    font-size: 16px;
+}
+
+/* Social Media Icons */
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icon-link {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icon-link:hover {
+    opacity: 0.8;
+}
